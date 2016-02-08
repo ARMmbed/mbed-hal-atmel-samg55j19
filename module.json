@@ -1,0 +1,52 @@
+{
+  "name": "mbed-hal-atmel-samg55j19",
+  "version": "0.1.0",
+  "description": "mbed HAL implementations specific to Atmel SAMG55J19 MCUs",
+  "keywords": [
+    "mbed",
+    "hal",
+    "atmel",
+    "samcortexm4",
+    "samg55j19"    
+  ],
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "source",
+    "source/config/TARGET_SAMG55",  
+    "source/drivers/efc",
+    "source/drivers/flexcom",
+    "source/drivers/pdc",
+    "source/drivers/pio/",
+    "source/drivers/pmc",
+    "source/drivers/rtt",
+    "source/drivers/supc",
+    "source/drivers/spi",
+    "source/drivers/tc",
+    "source/drivers/usart",
+    "source/services/clock",
+    "source/services/delay", 
+    "source/services/delay/sam",
+    "source/services/gpio/", 
+    "source/services/gpio/sam_gpio", 
+    "source/services/ioport", 
+    "source/services/ioport/sam", 
+    "source/services/serial", 
+    "source/services/serial/sam_usart", 
+    "source/services/sleepmgr", 
+    "source/services/sleepmgr/sam", 
+    "source/TARGET_SAMG55J19",
+    "source/TARGET_SAMG55J19/SAMG55_XPLAINED_PRO"
+  ],
+  "dependencies": {
+    "mbed-hal": "*",
+    "mbed-hal-atmel-samcortexm4": "*"
+  },
+  "targetDependencies": {
+
+  }
+}
